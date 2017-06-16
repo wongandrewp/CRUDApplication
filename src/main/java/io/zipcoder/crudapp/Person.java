@@ -16,6 +16,15 @@ public class Person {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Integer id;
 
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+
+        this.id = id;
+    }
+
     private String name;
 
     private Integer age;
