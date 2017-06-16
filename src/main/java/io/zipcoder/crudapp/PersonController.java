@@ -40,7 +40,7 @@ public class PersonController {
 
     @RequestMapping(method = RequestMethod.PUT)
     public void putPerson(@RequestBody Person person){
-        
+
     }
 
 
